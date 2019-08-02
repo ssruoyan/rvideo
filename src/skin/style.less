@@ -1,0 +1,45 @@
+@import './varible.less';
+
+// main
+.rvideo {
+
+  // big-play-button
+  .vjs-big-play-button {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -(@big-play-button-size / 2);
+    margin-left: -(@big-play-button-size / 2);
+    width: @big-play-button-size;
+    height: @big-play-button-size;
+    border-radius: @big-play-button-size;
+    opacity: 1;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .vjs-controls-disabled .vjs-big-play-button,
+  .vjs-has-started .vjs-big-play-button,
+  .vjs-using-native-controls .vjs-big-play-button,
+  .vjs-error .vjs-big-play-button {
+    display: none;
+  }
+
+  .vjs-has-started.vjs-paused.vjs-show-big-play-button-on-pause .vjs-big-play-button {
+    display: block;
+  }
+  // progress
+
+}
+// fullscreen
+
+// play button
+
+// big play button
+
+// loading spin
+
+// control bar
+
+// volume
