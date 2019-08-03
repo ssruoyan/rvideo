@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "cypress",
+    "@typescript-eslint/eslint-plugi"
+  ],
+  "extends": [
+    "plugin:cypress/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser"
+}
